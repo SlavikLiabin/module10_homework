@@ -16,6 +16,8 @@ for (let value of myMap.values()) {
   arrValues.push(value);
 }
 
+//===========================================
+
 for (let i = 0; i < arrKeys.length; i++) {
   console.log(`Ключ - ${arrKeys[i]}, значение - ${arrValues[i]}`);
 }
